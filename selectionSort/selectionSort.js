@@ -27,10 +27,16 @@ for( i=0; i < item.length; i++){
             currentMinimum = j
         }
     }
+
+
     if (i != currentMinimum){
+
+        
     temp = currentItem[i]
     item[i] =  item[currentMinimum]
     item[currentMinimum] = temp
+
+
     }
 
 }
